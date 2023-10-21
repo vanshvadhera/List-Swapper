@@ -1,0 +1,32 @@
+.AppOuter {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.buttonOuter{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.leftContainer{
+  border: solid 2px black;
+  height: 500px;
+  width: 40%;
+  border-radius: 8px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+.rightContainer{
+  border: solid 2px black;
+  height: 500px;
+  width: 40%;
+  border-radius: 8px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.containerInner{
+  margin: 20px 20px 20px 20px;
+}
